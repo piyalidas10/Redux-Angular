@@ -1,0 +1,43 @@
+.app-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.app-container h1 {
+    text-align: center;
+    color: #333;
+}
+
+.app-container .logo{
+    background-image: url("../images/logongrx.png");
+    min-height: 90px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.components-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+app-grocery, app-bucket {
+    width:42%;
+}
+
+app-grocery {
+    background-color: #fee9e9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+app-bucket {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
