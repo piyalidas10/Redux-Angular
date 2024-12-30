@@ -1,0 +1,33 @@
+.bucket-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.bucket-container h1 {
+    text-align: center;
+    color: #333;
+}
+
+.bucket-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.bucket-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.bucket-item:hover {
+    background-color: #f1f1f1;
+}
