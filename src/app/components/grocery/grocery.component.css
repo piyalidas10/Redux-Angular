@@ -1,0 +1,81 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.type-select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.grocery-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.grocery-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.grocery-item:hover {
+    background-color: #f1f1f1;
+}
+
+.increment-button {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin-right: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    user-select: none;
+}
+.decrement-button{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin-right: 10px;
+    background-color: #ff3300;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    user-select: none;
+}
+
+.increment-button:hover {
+    background-color: #0056b3;
+}
+.decrement-button:hover {
+    background-color: #950000;
+}
+
+span {
+    cursor: pointer;
+    user-select: none;
+}
