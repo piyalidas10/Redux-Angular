@@ -1,5 +1,5 @@
 <div class="bucket-container">
-  <h1>My Bucket</h1>
+  <h4>My Bucket</h4>
   <ul class="bucket-list">
     @for(item of myBucket$ | async; track item.id){
         <li class="bucket-item">{{item.name}} x {{item.quantity}}</li>
