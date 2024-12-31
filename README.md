@@ -5,5 +5,7 @@
 3. Reducer will return data to the store / state which is new state.
 4. Component directly consume data from store
 
+Stackbliz Link: https://stackblitz.com/~/github.com/piyalidas10/Redux-Angular
+
 ### Angular 18 state management using NGRX - Store, Reducer, Effects, Selectors | NgRx tutorial in Hindi
 https://www.youtube.com/watch?v=PvL7TULFxoE
